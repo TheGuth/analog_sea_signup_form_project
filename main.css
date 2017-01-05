@@ -1,0 +1,71 @@
+body {
+	background: aqua;
+	width: 100%;
+}
+
+a:hover {
+	color: darkgray;
+}
+
+img {
+	height: 35px;
+	margin: 40px auto;
+	display: block;
+}
+
+.form-container {
+	background: white;
+	width: 400px;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+}
+
+
+
+label {
+	display: block;
+}
+
+input {
+	width: 320px;
+	padding: 15px;
+	border: 2px solid lightgray;
+	margin: 15px 0;
+}
+
+input[type='submit'] {
+	height: 55px;
+	background: lightgreen;
+	font-weight: 600;
+	color: white;
+}
+
+input[type='submit']:hover {
+	background: green;
+}
+
+.form-container div {
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.form-container div a {
+	color: lightgray;
+}
+
+.form-container div a:hover {
+	color: darkgray;
+}
+
+footer, footer a {
+	text-align: center;
+	color: white;
+	font-weight: 700;
+}
